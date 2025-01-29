@@ -1,0 +1,60 @@
+.genres-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px; 
+  white-space: nowrap;
+  max-width: 400px; 
+  padding-bottom: 20px;
+}
+
+.overflow-genres {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling for the remaining genres */
+  gap: 10px; /* Spacing between buttons */
+}
+
+.genres-container button {
+  white-space: nowrap; 
+  padding: 8px 12px; 
+}
+
+.genres-container::-webkit-scrollbar {
+  height: 8px; 
+}
+
+.genres-container::-webkit-scrollbar-thumb {
+  background-color: #6c757d; 
+  border-radius: 4px; 
+}
+
+.movie-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.movie-card-img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.movie-card-body {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.6); 
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  padding: 15px;
+  text-align: center;
+}
+
+.movie-card:hover .movie-card-body {
+  opacity: 1;
+  visibility: visible;
+}
+
+.movie-card:hover .movie-card-img {
+  transform: scale(1.05);
+}

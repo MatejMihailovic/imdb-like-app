@@ -1,0 +1,37 @@
+.container {
+    background-color: #181818;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-header, .card-body {
+    background-color: #242424;
+  }
+  
+  .card-title {
+    color: #ffc107;
+  }
+  
+  .card-body ul.list-group-item {
+    background-color: #242424;
+    color: #ccc;
+  }
+  
+  .text-warning {
+    color: #ffc107 !important;
+  }
+  
+  a.text-warning:hover {
+    color: #e0a800 !important;
+  }
+  
+  .card-body h6 {
+    color: #fff;
+  }
+  
+  img.img-thumbnail {
+    border: 2px solid #ffc107;
+  }
+  

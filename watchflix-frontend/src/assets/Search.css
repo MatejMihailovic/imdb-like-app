@@ -1,0 +1,96 @@
+.search-bar-container { 
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; /* Gap between the search components and other elements */
+    position: relative;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 0; /* Remove the gap between the dropdown and input */
+}
+
+.search-dropdown {
+    flex-grow: 0;
+    max-width: 150px;
+    padding: 10px;
+    background-color: #1f2937;
+    color: #fff;
+    border: 2px solid #9ca3af;
+    border-radius: 8px 0 0 8px; /* Rounded only on the left side */
+    font-size: 1rem;
+    flex-shrink: 0;
+    margin-right: 0; /* Ensure no margin between dropdown and input */
+}
+
+.search-input-wrapper {
+    position: relative;
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%; 
+    padding: 12px 16px;
+    padding-right: 40px; 
+    font-size: 1rem;
+    border-radius: 0 9999px 9999px 0; /* Rounded on the right side only */
+    border: 2px solid #9ca3af;
+    border-left: none; /* Remove the border between the dropdown and input */
+    transition: border-color 0.2s ease;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #3c6ffc;
+}
+
+.search-button {
+    padding: 12px 16px;
+    background-color: #1f2937;
+    color: #fff;
+    border: 2px solid #9ca3af;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    flex-shrink: 0;
+}
+
+.search-button:hover {
+    background-color: #374151;
+}
+
+.clear-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #9ca3af;
+    transition: color 0.2s ease;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s ease, opacity 0.2s ease; 
+}
+
+.clear-icon.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.clear-icon:hover {
+    color: #ef4444;
+}
+
+.error-text {
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: #ef4444;
+}

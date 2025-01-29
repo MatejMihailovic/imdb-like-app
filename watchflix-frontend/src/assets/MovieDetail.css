@@ -1,0 +1,38 @@
+.movie-detail {
+    color: white;
+  }
+  
+  .poster-wrapper {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.05); /* Transparent background */
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .poster-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .movie-info {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .text-muted {
+    font-size: 1rem;
+    margin-top: -15px;
+    color: #adb5bd !important;
+  }
+  

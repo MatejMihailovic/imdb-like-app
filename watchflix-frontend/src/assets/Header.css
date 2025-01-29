@@ -1,0 +1,9 @@
+.dropdown-menu {
+    position: absolute;
+    right: 0; 
+    min-width: 200px; 
+    max-width: 100%; 
+    overflow-x: hidden;
+    transform: translateX(0); 
+    z-index: 1000; 
+  }
