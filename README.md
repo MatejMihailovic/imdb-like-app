@@ -26,3 +26,14 @@ This project is an **IMDb-like application** that provides **personalized movie 
 3. Get AI-based personalized movie recommendations.
 4. Save favorite movies and rate them.
 5. Admins can manage movie data.
+
+## 🖼 Screenshots
+
+### 🎥 Homepage
+![Homepage](screenshots/pocetna_stranica.jpg)
+
+### 🔍 Movie Search
+![Search](screenshots/pretraga_po_radnji.jpg)
+
+### 🤖 Personalized Recommendations
+![Recommendations](screenshots/preporuke_filmova.jpg)
